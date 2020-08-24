@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^home$ main.php?views=home [L]
+RewriteRule ^academicos$ main.php?views=academicos [L]
+RewriteRule ^corporativa$ main.php?views=corporativa [L]
+RewriteRule ^professores$ main.php?views=professores [L]
+RewriteRule ^visitantes$ main.php?views=visitantes [L]
+RewriteRule ^usuarios$ main.php?views=usuarios [L]
+
+Options All -Indexes
+</IfModule>
